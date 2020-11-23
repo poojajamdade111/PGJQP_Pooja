@@ -1,0 +1,18 @@
+/*****access Specifier***/
+	An access specifier is used  to determine whether  any class or fuction can access the member variables and fuction of a particular class.
+There are three access specifier:
+1.private:member variables and member fuction declared in class with private access specifier will not acessible outside the class
+2.public:allows class to expose its member variables and member function to other fuction and objects.
+3.protected:allows class to hide its member variables and member function from othter class fuction .
+
+/*****static variables and static function*****/
+each objects has its own set of variables.if there situations when its prefer to have one variables that is commom to all objects.for this purpose static variable is their.static variales intialise outside the class.
+static function:static fuction can only use static variales.we use class name to access static fuction.
+/****difference cunctructor and method***/
+constuctor:
+1. not having any return type.
+2.constructor are invoked implicitly
+method:
+1. having return type
+2.method invoked explicitly
+
