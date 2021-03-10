@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.niit.model.Books" table="BOOKS">
+		<id name="bk_id" type="integer">
+            <column name="BOOKID" length="10" />
+            <generator class="native" />
+        </id>    
+        <property name="bk_name" type="string">
+            <column name="BOOKNAME" length="20" />
+        </property>
+        <property name="bk_Authorname" type="string">
+            <column name="AUTHORNAME" length="20" />
+        </property>
+        <property name="bk_publishername" type="string">
+            <column name="PUBLISHERNAME" length="20" />
+        </property>
+        <property name="cust_id" type="integer">
+            <column name="CUST_ID" length="20" />
+        </property>
+      
+        <property name="cust_name" type="string">
+            <column name="CUST_NAME" length="40" />
+        </property>
+        <property name="cust_address" type="string">
+            <column name="ADDRESS" length="40" />
+        </property>
+	</class>
+</hibernate-mapping>
